@@ -21,7 +21,7 @@ This is a Python project based on firebase (pyrebase) RealTime Database to Remot
 
 ### Built in Commands:
 ```
-upload <filename>  to upload file from client to Host device.
+upload <filename>   to upload file from client to Host device.
 
 download <filename> to download file from host device to client.
 
