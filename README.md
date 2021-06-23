@@ -24,5 +24,9 @@ This is a Python project based on firebase (pyrebase) RealTime Database to Remot
 upload <filename>  to upload file from client to Host device.
 
 download <filename> to download file from host device to client.
+
+status              to check host connected or not.
+
+exit                to stop both host and client file executions.
 ```
 
